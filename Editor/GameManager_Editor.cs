@@ -3,6 +3,7 @@ using UnityEditor;
 using System.Collections.Generic;
 using System.Linq;
 
+namespace KenTank.GameManager {
 public class GameManager_Editor : Editor
 {
     const int priority = 10;
@@ -50,4 +51,4 @@ public class AddDefineSymbols : Editor
         onetime = false;
     }
     
-}
+}}

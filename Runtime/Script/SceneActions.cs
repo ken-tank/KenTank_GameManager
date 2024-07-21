@@ -1,5 +1,6 @@
 using UnityEngine;
 
+namespace KenTank.GameManager {
 public class SceneActions : MonoBehaviour
 {
     public void LoadScene(string name) 
@@ -26,4 +27,4 @@ public class SceneActions : MonoBehaviour
     {
         SceneManagement.PrevScene();
     }
-}
+}}

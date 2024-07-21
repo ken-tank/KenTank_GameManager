@@ -1,5 +1,6 @@
 using UnityEngine;
 
+namespace KenTank.GameManager {
 public class Transtition : MonoBehaviour
 {
     [SerializeField] Animator animator;
@@ -28,4 +29,4 @@ public class Transtition : MonoBehaviour
     {
         waiting = false;
     }
-}
+}}

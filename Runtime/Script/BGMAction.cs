@@ -1,5 +1,6 @@
 using UnityEngine;
 
+namespace KenTank {
 public class BGMAction : MonoBehaviour
 {
     public static void PlayUI(AudioClip clip)
@@ -16,4 +17,4 @@ public class BGMAction : MonoBehaviour
     {
         GameManager.instance.bGMManager.music.PlayOneShot(clip);
     }
-}
+}}

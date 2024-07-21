@@ -1,5 +1,6 @@
 using UnityEngine;
 
+namespace KenTank.GameManager {
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
@@ -54,4 +55,4 @@ public class GameManager : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false;
         #endif
     }
-}
+}}

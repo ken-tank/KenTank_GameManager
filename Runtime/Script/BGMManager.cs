@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+namespace KenTank.GameManager {
 public class BGMManager : MonoBehaviour
 {
     public AudioSource music, effect, ui;
@@ -135,4 +136,4 @@ public class BGMManager : MonoBehaviour
         GameManager.instance.bGMManager.music.PlayOneShot(clip);
         if (_currentMusic) GameManager.instance.bGMManager.PlayMusic(_currentMusic.clip, 0f);
     }
-}
+}}

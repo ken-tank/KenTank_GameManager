@@ -28,6 +28,7 @@ using UnityEngine.Localization.Settings;
 using UnityEngine.Rendering.Universal;
 #endif
 
+namespace KenTank.GameManager {
 public class SettingsManager : MonoBehaviour
 {   
     public static int[] availableFramerate = {30, 60, 90, 120, 999};
@@ -197,4 +198,4 @@ public class SettingsManager : MonoBehaviour
             }
         }
     }
-}
+}}

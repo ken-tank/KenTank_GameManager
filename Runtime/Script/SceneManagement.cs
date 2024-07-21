@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
+namespace KenTank.GameManager {
 public class SceneManagement : MonoBehaviour
 {
     public TranstitionManager transtition;
@@ -88,4 +89,4 @@ public class SceneManagement : MonoBehaviour
     {
         GameManager.instance.bGMManager.StopMusic(smoothFade);
     }
-}
+}}
