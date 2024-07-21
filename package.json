@@ -7,5 +7,8 @@
         "name": "KenTank",
         "email": "kentank.dev@gmail.com",
         "url": "https://github.com/ken-tank"
+    },
+    "dependencies": {
+        "com.unity.ugui": "1.0.0"
     }
 }
