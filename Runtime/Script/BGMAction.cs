@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace KenTank {
+namespace KenTank.GameManager {
 public class BGMAction : MonoBehaviour
 {
     public static void PlayUI(AudioClip clip)
