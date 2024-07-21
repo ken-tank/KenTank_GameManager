@@ -165,6 +165,9 @@ MonoBehaviour:
     onInitialized:
       m_PersistentCalls:
         m_Calls: []
+    onNextSceneFailed:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &3492918884461127591
 GameObject:
   m_ObjectHideFlags: 0

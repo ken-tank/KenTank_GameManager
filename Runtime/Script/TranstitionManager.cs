@@ -3,7 +3,7 @@ using UnityEngine;
 namespace KenTank.GameManager {
 public class TranstitionManager : MonoBehaviour
 {
-    [SerializeField] Transtition transition;
+    public Transtition transition;
     public static Transtition _transition;
 
     public void Initialize()

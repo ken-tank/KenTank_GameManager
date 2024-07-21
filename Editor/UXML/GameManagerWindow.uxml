@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Label text="Game Manager" display-tooltip-when-elided="true" style="font-size: 30px; -unity-font-style: bold; color: rgb(255, 139, 0); -unity-text-align: lower-left; height: 73px;" />
+    <ui:Label text="by KenTank" display-tooltip-when-elided="true" style="font-size: 20px; -unity-font-style: bold; color: rgb(144, 0, 255); -unity-text-align: upper-left; height: 43px;" />
+    <ui:VisualElement name="Inspector">
+        <ui:VisualElement name="SceneSettings" style="background-color: rgb(16, 16, 16); padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+            <ui:Label text="Current Scene Settings" display-tooltip-when-elided="true" style="color: rgb(0, 135, 197); font-size: 15px; -unity-font-style: bold; margin-bottom: 10px;" />
+            <uie:ObjectField name="musicClip" label="Music" />
+            <ui:Slider picking-mode="Ignore" label="Volume" value="1" high-value="1" name="musicVolume" show-input-field="true" />
+            <uie:ObjectField label="Transtition" name="transtition" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
