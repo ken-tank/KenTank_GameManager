@@ -1,0 +1,10 @@
+{
+    "name": "com.KenTank.GameManager",
+    "version": "1.0.0",
+    "displayName": "Game Manager",
+    "author": {
+        "name": "KenTank",
+        "email": "kentank.dev@gmail.com",
+        "url": "https://github.com/ken-tank"
+    }
+}
